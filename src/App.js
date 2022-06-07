@@ -1,27 +1,15 @@
-import Navbar from "./Navigation/Navbar.js";
-import HeroSection from "./HeroSection/HeroSection.js"
-import FooterMain from "./Footer/FooterMain.js"
-import {BrowserRouter, Routes, Route} from "react-router-dom"
-import About from "./About/about.js"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home/Home.js";
+import About from "./About/about.js";
 
 function App() {
   return (
-    <>
-      <div>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/about" component={<About />}></Route>
-          </Routes>
-          <Navbar/>
-        </BrowserRouter>
-      </div>
-      <div>
-        <HeroSection />
-      </div>
-      <div>
-        <FooterMain />
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/about" element={<About />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
