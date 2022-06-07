@@ -155,17 +155,12 @@ export default function footer() {
               </p>
               <p className="mb-4">
                 <a href="#!" className="text-gray-600">
-                  Students'insights
+                  Students' Insights
                 </a>
               </p>
               <p className="mb-4">
                 <a href="#!" className="text-gray-600">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-gray-600">
-                  Help
+                  Contact
                 </a>
               </p>
             </div>
@@ -248,7 +243,7 @@ export default function footer() {
             </div>
           </div>
         </div>
-        <div className="text-center p-6 bg-gray-200">
+        {/* <div className="text-center p-6 bg-gray-200">
           <span>© 2021 Copyright:</span>
           <a
             className="text-gray-600 font-semibold"
@@ -256,7 +251,7 @@ export default function footer() {
           >
             Tailwind Elements
           </a>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
