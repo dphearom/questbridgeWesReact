@@ -33,9 +33,9 @@ export default function about() {
         </div>
         <div className="mt-10 w-full pb-12">
           <h1 className="pb-5">Our Members</h1>
-          <div className="flex flex-wrap gap-9 justify-evenly justify-items-center">
-            <div className="shrink-0 border-2 rounded-lg basis-1/4 max-w-[15%] min-w-[15%]">
-              <img src={profile} className="h-56 w-full" alt="John Doe"/>
+          <div className="flex md:flex-row sm:flex-col gap-9 justify-evenly justify-items-center sm:justify-items-center items-center w-full">
+            <div className="md:shrink-0 md:grow-0 border-2 rounded-lg basis-1/4 flex-none sm:min-w-[25%] sm:max-w-[90%] md:min-w-[25%] md:max-w-[35%] lg:min-w-[25%] lg:max-w-[25%]">
+              <img src={profile} className="" alt="John Doe"/>
               <h3 className="text-center text-3xl">John Doe</h3>
               <p className="text-xs pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -44,8 +44,8 @@ export default function about() {
                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                  deserunt mollit anim id est laborum.</p>
             </div>
-            <div className="shrink-0 border-2 rounded-lg basis-1/4 max-w-[15%] min-w-[15%]">
-              <img src={profile} className="h-56 w-full" alt="John Doe"/>
+            <div className="md:shrink-0 md:grow-0 border-2 rounded-lg basis-1/4 flex-none sm:min-w-[25%] sm:max-w-[90%] md:min-w-[25%] md:max-w-[35%] lg:min-w-[15%] lg:max-w-[25%] lg:flex-none ">
+              <img src={profile} className="" alt="John Doe"/>
               <h3 className="text-center text-3xl">John Doe</h3>
               <p className="text-xs pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -54,8 +54,8 @@ export default function about() {
                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                  deserunt mollit anim id est laborum.</p>
             </div>
-            <div className="shrink-0 border-2 rounded-lg basis-1/4 max-w-[15%] min-w-[15%]">
-              <img src={profile} className="h-56 w-full" alt="John Doe"/>
+            <div className="md:shrink-0 md:grow-0 border-2 rounded-lg basis-1/4 flex-none sm:min-w-[25%] sm:max-w-[90%] md:min-w-[25%] md:max-w-[40%] lg:min-w-[15%] lg:max-w-[25%]">
+              <img src={profile} className="" alt="John Doe"/>
               <h3 className="text-center text-3xl">John Doe</h3>
               <p className="text-xs pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud

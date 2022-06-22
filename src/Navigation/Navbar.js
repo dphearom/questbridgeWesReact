@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./Wesleyan-logo.png";
+import logo from "./QBLogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -14,13 +14,15 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="flex flex-row items-center">
               <div>
-                <img
+                <Link to="/">
+                  <img
                   src={logo}
                   width="70"
                   height="70"
                   className="d-inline-block h1"
                   alt="Wesleyan Questbridge Logo"
-                />
+                  />
+                </Link>
               </div>
               <div className="relative md:text-xl text-black align-middle font-bold leading-relaxed inline-block mr-4 px-1 whitespace-nowrap uppercase sm:text-sm">
                 Wesleyan Questbridge
@@ -61,13 +63,13 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
+                  to="/contact"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Contact</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

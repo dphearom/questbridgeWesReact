@@ -1,4 +1,4 @@
-import logo from "../image/image2vector.svg";
+import logo from "../Navigation/image2vector.svg";
 
 export default function footer() {
   return (
@@ -138,7 +138,7 @@ export default function footer() {
                   ></path> */}
                 WESLEYAN UNIVERSITY QUESTBRIDGE
               </h6>
-              <p>
+              <p className="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.. Lorem
                 ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
