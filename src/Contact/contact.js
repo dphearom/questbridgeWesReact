@@ -3,7 +3,7 @@ import Footer from "../Footer/FooterMain";
 
 export default function contact() {
   return (
-    <div className="container mx-auto">
+    <div >
       <Nav />
       <div className="flex justify-center pt-12 pb-20">
         <form class="w-full max-w-sm content-center">
