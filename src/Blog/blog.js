@@ -53,12 +53,12 @@ export default function Blog() {
               <div class="uppercase tracking-wide text-sm text-wescolor font-semibold">
                 Tips
               </div>
-              <a
-                href="#"
+              <Link
+                to="/blog/post2"
                 className="block mt-1 text-2xl leading-tight font-medium text-black hover:underline"
               >
                 Looking Ahead: 3 FGLI Resources That Are Worth Your Time
-              </a>
+              </Link>
               <p className="text-gray-500"> Melanie Garcia | August 2, 2022</p>
               <p className="mt-2 text-slate-500">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

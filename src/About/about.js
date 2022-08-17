@@ -6,6 +6,7 @@ import bella from "../image/bella.png"
 import darling from "../image/darling.png"
 import pin from "../image/pin.png"
 import ahmed from "../image/ahmed.png"
+import justin from "../image/justin.JPG"
 
 export default function about() {
   return (
@@ -75,9 +76,9 @@ export default function about() {
             </div>
             <div className="flex items-stretch justify-center md:w-1/3 md:p-5 sm:p-2 flex-1">
               <div className="bg-gray-100 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="product designer" />
+                <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src={justin} alt="product designer" />
                 <h1 class="text-lg text-gray-700">  Justin Nguyen  </h1>
-                <h3 class="text-sm text-gray-400 ">   Publicity Chair </h3>
+                <h3 class="text-sm text-gray-400 ">   Publicity Chair / Class of 2023 Representative </h3>
                 <p class="text-xs text-left text-gray-400 mt-4">   I had always silently laughed at the wisdom of adults that kept telling us that "time flies by fast, enjoy it while you can", but now that I am a rising senior, I understand that wisdom all too well. College is a time for discovery, learning, and independence. Take advantage of the time here, work hard, and have fun!   </p>
               </div>
             </div>
