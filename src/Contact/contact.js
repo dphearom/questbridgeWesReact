@@ -1,77 +1,48 @@
 import Nav from "../Navigation/Navbar";
 import Footer from "../Footer/FooterMain";
+import call from "./call.svg"
+import mail from "./mail.svg"
+import location from "./location.svg"
+import facebook from "./logo-facebook.svg"
+import instagram from "./logo-instagram.svg"
+import linkedIn from "./logo-linkedin.svg"
 
 export default function contact() {
   return (
-    <div >
-      <Nav />
-      <div className="flex justify-center pt-12 pb-20">
-        <form class="w-full max-w-sm content-center">
-          <div class="md:flex md:items-center mb-6">
-            <div class="md:w-1/3">
-              <label
-                class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                for="inline-full-name"
-              >
-                Full Name
-              </label>
-            </div>
-            <div class="md:w-2/3">
-              <input
-                class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-wescolor"
-                id="inline-full-name"
-                type="text"
-                value="Jane Doe"
-              />
-            </div>
-          </div>
-          <div class="md:flex md:items-center mb-6">
-            <div class="md:w-1/3">
-              <label
-                class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                for="inline-password"
-              >
-                Email
-              </label>
-            </div>
-            <div class="md:w-2/3">
-              <input
-                class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-wescolor"
-                id="inline-password"
-                type="text"
-                placeholder="jdoe@gmail.com"
-              />
-            </div>
-          </div>
-          <div class="md:flex md:items-center mb-6">
-            <div class="md:w-1/3">
-              <label
-                class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                for="inline-full-name"
-              >
-                Message
-              </label>
-            </div>
-            <div class="md:w-2/3">
-              <textarea
-                class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-wescolor"
-              />
-            </div>
-          </div>
-          <div class="md:flex md:items-center">
-            <div class="md:w-1/3"></div>
-            <div class="md:w-2/3">
-              <button
-                class="shadow bg-wescolordark hover:bg-wescolor focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                type="button"
-              >
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
+    <>
+      <div>
+        <Nav />
       </div>
-      <Footer />
-    </div>
+      <div className="container mx-auto bg-contact-back bg-cover ">
+        <div className="flex w-full min-h-screen justify-center items-center">
+          <div className="flex flex-col space-y-6 sm:w-full md:w-1/2 lg:w-1/3 max-w-4xl p-10 items-center rounded-xl shadow-lg text-white bg-wescolor1 bg-opacity-75">
+            <div className="flex flex-col space-y-8 justify-between">
+              <div>
+                <h1 className="font-bold text-5xl tracking-wide">Contact Us</h1>
+                <p className="pt-2 text-sm">
+                  Loredafsa saf sa sad sadsadas sa dsad sa
+                </p>
+              </div>
+              <div className="flex flex-col space-y-6">
+                <div className="flex items-center space-x-2 ">
+                  <img src={mail} className="h-6 w-6" alt="Mail logo"/>
+                  <span className="text-xl">lorep ipsum</span>
+                </div><div className="flex items-center space-x-2 ">
+                  <img src={location} className="h-6 w-6" alt="Location logo"/>
+                  <span className="text-xl">45 Wyllys Ave., Middletown, CT 06459</span>
+                </div>
+              </div>
+              <div className="flex space-x-5">
+                <a href="#"><img src={instagram} className="w-5 h-5" alt="Instagram logo"/></a>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </>
   );
 }

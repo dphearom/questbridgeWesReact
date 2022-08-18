@@ -49,7 +49,7 @@ export default function Navbar({ fixed }) {
                   to="/about"
                 >
                   <i className="text-lg leading-lg text-black opacity-75"></i>
-                  <span className="ml-2">About</span>
+                  <span className="ml-2">About Us</span>
                 </Link>
               </li>
               <li className="nav-item">
@@ -67,7 +67,7 @@ export default function Navbar({ fixed }) {
                   href="#pablo"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Students' Insights</span>
+                  <span className="ml-2">Alumni's Insights</span>
                 </a>
               </li>
               <li className="nav-item">

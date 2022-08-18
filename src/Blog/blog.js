@@ -1,6 +1,8 @@
 import Navbar from "../Navigation/Navbar.js";
 import FooterMain from "../Footer/FooterMain.js";
 import holder from "./holder.jpg";
+import post1head from "./post1heading.jpg"
+import post2head from "./post2head.jpg"
 import { Link } from "react-router-dom";
 
 export default function Blog() {
@@ -15,7 +17,7 @@ export default function Blog() {
             <div className="md:shrink-0">
               <img
                 className="h-48 w-full object-cover md:h-full md:w-48"
-                src={holder}
+                src={post1head}
                 alt="place holder"
               ></img>
             </div>
@@ -45,7 +47,7 @@ export default function Blog() {
             <div className="md:shrink-0">
               <img
                 className="h-48 w-full object-cover md:h-full md:w-48"
-                src={holder}
+                src={post2head}
                 alt="place holder"
               ></img>
             </div>

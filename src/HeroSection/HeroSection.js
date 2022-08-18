@@ -42,7 +42,7 @@ export default function HeroSection() {
         <img
           className="lg:h-full lg:w-full object-cover"
           src={hero}
-          alt=""
+          alt="Wesleyan University view"
         />
       </div>
     </div>

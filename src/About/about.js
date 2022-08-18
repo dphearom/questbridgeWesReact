@@ -43,7 +43,7 @@ export default function about() {
               <div className="bg-gray-100 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
                 <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src={bella} alt="product designer" />
                 <h1 class="text-lg text-gray-700"> Bella Nunn </h1>
-                <h3 class="text-sm text-gray-400 ">  President/Liaison  </h3>
+                <h3 class="text-sm text-gray-400 ">  President  </h3>
                 <p class="text-xs text-left text-gray-400 mt-4">  For me, QuestBridge is a really great community of FGLI students that come from similar backgrounds that work together to navigate everything college and career related. We're really just a giant group of friends that all look out for each other! </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function about() {
               <div className="bg-gray-100 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
                 <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src={justin} alt="product designer" />
                 <h1 class="text-lg text-gray-700">  Justin Nguyen  </h1>
-                <h3 class="text-sm text-gray-400 ">   Publicity Chair / Class of 2023 Representative </h3>
+                <h3 class="text-sm text-gray-400 ">Class of 2023 Representative </h3>
                 <p class="text-xs text-left text-gray-400 mt-4">   I had always silently laughed at the wisdom of adults that kept telling us that "time flies by fast, enjoy it while you can", but now that I am a rising senior, I understand that wisdom all too well. College is a time for discovery, learning, and independence. Take advantage of the time here, work hard, and have fun!   </p>
               </div>
             </div>
@@ -92,8 +92,8 @@ export default function about() {
             </div>
           </div>
 
-          <div className=" container flex flex-wrap md:flex-row sm:flex-col justify-between">
-            <div className="flex items-stretch md:justify-start md:ml-16 md:w-1/3 md:p-5 sm:p-2 sm:justify-center sm:ml-0 flex-1">
+          <div className=" container flex flex-wrap md:flex-row sm:flex-col">
+            <div className="flex items-stretch md:p-5 sm:p-2 sm:justify-center sm:ml-0 flex-1">
               <div className="bg-gray-100 font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
                 <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src={darling} alt="product designer" />
                 <h1 class="text-lg text-gray-700"> Darling Rodriguez </h1>
