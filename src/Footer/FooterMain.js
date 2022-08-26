@@ -58,12 +58,17 @@ export default function footer() {
               </h6>
               <p className="mb-4">
                 <a href="/about" className="text-gray-600">
-                  About
+                  About Us
                 </a>
               </p>
               <p className="mb-4">
                 <a href="/blog" className="text-gray-600">
                   Blogs
+                </a>
+              </p>
+              <p className="mb-4">
+                <a href="/blog" className="text-gray-600">
+                  Alumni's Insights
                 </a>
               </p>
               <p className="mb-4">

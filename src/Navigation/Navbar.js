@@ -64,7 +64,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
+                  href="/alumni'sinsights"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Alumni's Insights</span>
