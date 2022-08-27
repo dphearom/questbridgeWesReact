@@ -67,7 +67,7 @@ export default function footer() {
                 </a>
               </p>
               <p className="mb-4">
-                <a href="/blog" className="text-gray-600">
+                <a href="/alumni'sinsights" className="text-gray-600">
                   Alumni's Insights
                 </a>
               </p>
