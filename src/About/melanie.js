@@ -5,7 +5,7 @@ export default function Melanie() {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <div className="flex items-stretch justify-center md:w-1/3 md:p-5 sm:p-2 flex-0">
-      <div className="flex flex-col bg-gray-100 justify-between text-center rounded-3xl border shadow-lg p-10 min-w-[320px]">
+      <div className="flex flex-col bg-gray-100 justify-between text-center rounded-3xl border shadow-lg p-10 max-w-xs">
         <div className=" font-semibold ">
           <img
             class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto object-cover"
@@ -16,7 +16,7 @@ export default function Melanie() {
           <h3 class="text-sm text-gray-400 "> Publicity Chair </h3>
           <p class="text-xs text-left text-gray-400 mt-4">
             <span className="font-bold">Fun Fact:</span> I don’t like{" "}
-            <span className="italic">The Great Gatsby</span>.
+            <span className="italic">The Great Gatsby</span>. <span className="text-transparent">This is white out to give the width more space.</span> 
           </p>
         </div>
         <div>
