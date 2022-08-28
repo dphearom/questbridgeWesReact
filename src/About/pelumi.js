@@ -1,4 +1,5 @@
 import React from "react";
+import pelumi from "../image/pelumi.jpg"
 
 export default function Pelumi() {
   const [showModal, setShowModal] = React.useState(false);
@@ -8,7 +9,7 @@ export default function Pelumi() {
         <div className=" font-semibold ">
           <img
             class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto object-cover"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            src={pelumi}
             alt="Pelumi Tayo-Orisadare Profile"
           />
           <h1 class="text-lg text-gray-700"> Pelumi Tayo-Orisadare </h1>

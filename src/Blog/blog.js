@@ -41,11 +41,10 @@ export default function Blog() {
                   Melanie Garcia | August 2, 2022
                 </p>
                 <p className="mt-2 text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit
+                  Rihanna once said, “Work, work, work, work, work, work.”
+                  QuestBridge Scholars can work, too–but probably not as pop
+                  stars. We opt for more flexible hours through federal
+                  work-study jobs.
                 </p>
               </div>
             </div>
@@ -74,11 +73,11 @@ export default function Blog() {
                   Melanie Garcia | August 2, 2022
                 </p>
                 <p className="mt-2 text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit
+                  Your schedule is booked. And as you think ahead, the future is
+                  fuzzy. You can’t really make it out. The path is unclear and
+                  sometimes you feel that your resources are limited, too… But
+                  guess what? They aren’t. And you can absolutely make that
+                  future happen.
                 </p>
               </div>
             </div>

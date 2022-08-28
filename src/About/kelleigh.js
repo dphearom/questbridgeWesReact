@@ -1,4 +1,5 @@
 import React from "react";
+import kelleigh from "../image/kelleigh.jpg"
 
 export default function Kelleigh() {
   const [showModal, setShowModal] = React.useState(false);
@@ -8,8 +9,8 @@ export default function Kelleigh() {
         <div className=" font-semibold ">
           <img
             class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto object-cover"
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-            alt="Pelumi Tayo-Orisadare Profile"
+            src={kelleigh}
+            alt="Kelleigh Profile"
           />
           <h1 class="text-lg text-gray-700"> Kelleigh Entrekin </h1>
           <h3 class="text-sm text-gray-400 "> Community Engagement </h3>

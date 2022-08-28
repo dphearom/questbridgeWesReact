@@ -19,9 +19,6 @@ export default function contact() {
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold text-5xl tracking-wide">Contact Us</h1>
-                <p className="pt-2 text-sm">
-                  Loredafsa saf sa sad sadsadas sa dsad sa
-                </p>
               </div>
               <div className="flex flex-col space-y-6">
                 <div className="flex items-center space-x-2 ">
