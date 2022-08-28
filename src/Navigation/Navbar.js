@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
                 </Link>
               </div>
               <div className="relative md:text-xl text-black align-middle font-bold leading-relaxed inline-block mr-4 px-1 whitespace-nowrap uppercase sm:text-sm">
-                Wesleyan Questbridge
+                <Link to="/">Wesleyan Questbridge</Link>
               </div>
             </div>
             <button
@@ -58,7 +58,7 @@ export default function Navbar({ fixed }) {
                   to="/blog"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Blog</span>
+                  <span className="ml-2">Blogs</span>
                 </Link>
               </li>
               <li className="nav-item">
