@@ -10,7 +10,8 @@ export default function HeroSection() {
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Welcome to </span>{' '}
                 
-                <span className="block text-wescolor xl:inline">Wesleyan's Questbridge Chapter </span>
+                <span className="block text-wescolor">Wesleyan's QuestBridge </span>
+                <p className="block text-wescolor">Chapter</p>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Wesleyan University 's QSN Chapter welcomes you to our official chapter website! Meet the executive board, check out our monthly blog, or discover 
@@ -22,15 +23,15 @@ export default function HeroSection() {
                     href="/blog"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-wescolor hover:bg-wescolordark md:py-4 md:text-lg md:px-10"
                   >
-                    Blogs
+                    Our Blogs
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="/alumni'sinsights"
+                    href="/alumniinsights"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-wescolor0 hover:bg-wescolor1 md:py-4 md:text-lg md:px-10"
                   >
-                    Alumni's Insights
+                    Alumni Insights
                   </a>
                 </div>
               </div>

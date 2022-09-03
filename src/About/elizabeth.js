@@ -1,7 +1,7 @@
+import elizabeth from "../image/elizabeth.jpg";
 import React from "react";
-import pin from "../image/pin.png";
 
-export default function Pin() {
+export default function Elizabeth() {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <div className="flex items-stretch justify-center md:w-1/3 md:p-5 sm:p-2 flex-0">
@@ -9,15 +9,14 @@ export default function Pin() {
         <div className=" font-semibold ">
           <img
             class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto object-cover"
-            src={pin}
-            alt="Pin profile"
+            src={elizabeth}
+            alt="product designer"
           />
-          <h1 class="text-lg text-gray-700"> Pin-Hsuan Chen </h1>
-          <h3 class="text-sm text-gray-400 "> Vice President </h3>
+          <h1 class="text-lg text-gray-700"> Elizabeth Ouanemalay </h1>
+          <h3 class="text-sm text-gray-400 "> Secretary </h3>
           <p class="text-xs text-left text-gray-400 mt-4">
-            <span className="font-bold">Fun Fact:</span> I love to go snorkeling
-            at the amazing beaches on Guam filled with beautiful coral and
-            marine life!
+            <span className="font-bold">Fun Fact:</span> My favorite bands are
+            Halestorm and The Script.
           </p>
         </div>
         <div>
@@ -34,7 +33,9 @@ export default function Pin() {
                 <div className="relative w-auto my-6 mx-auto max-w-3xl">
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                     <div className="flex items-start justify-between p-4 border-b border-solid border-slate-200 rounded-t">
-                      <h3 className="text-3xl font-semibold">Pin-Hsuan Chen</h3>
+                      <h3 className="text-3xl font-semibold">
+                        Elizabeth Ouanemalay
+                      </h3>
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}
@@ -44,60 +45,53 @@ export default function Pin() {
                     </div>
                     <div className="relative p-4 flex-auto">
                       <div className="flex md:flex-row sm:flex-col text-sm justify-start text-left">
-                        <div className="md:w-1/3 text-base">
+                        <div className="md:w-1/2 text-base">
                           <span className="font-bold">Hometown:</span>{" "}
-                          <span className="text-slate-500">
-                            {" "}
-                            Tamuning, Guam{" "}
-                          </span>
+                          <span className="text-slate-500">Long Beach, CA</span>
                         </div>
                         <div className="md:w-1/2 text-base">
                           <span className="font-bold ">Email:</span>{" "}
                           <span className="text-blue-500 underline">
-                            pchen02@wesleyan.edu
+                            eouanemalay@wesleyan.edu
                           </span>
                         </div>
                       </div>
                       <div className="flex md:flex-row sm:flex-col text-sm justify-start text-left">
-                        <div className="md:w-1/3 text-base">
+                        <div className="md:w-1/2 text-base">
                           <span className="font-bold ">Class Year:</span>
-                          <span className="text-slate-500"> 2023</span>
+                          <span className="text-slate-500"> 2023
+                          </span>
                         </div>
                         <div className="md:w-1/2 text-base">
                           <span className="font-bold ">Major\Minor:</span>
-                          <span className="text-slate-500">
-                            Psychology\East Asian Studies Minor
-                          </span>
+                          <span className="text-slate-500"> Biology</span>
                         </div>
                       </div>
                       <p className="text-base text-left mt-4 font-bold">
                         What does QuestBridge mean to you?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        Questbridge has impacted me and my family’s life in many
-                        different ways. Not only has Questbridge given me the
-                        opportunity and confidence to pursue a higher education
-                        at Wesleyan despite my financial background, Questbridge
-                        also introduced me to an amazing community at Wesleyan!
+                        To me, QuestBridge means many things, but if I had to
+                        narrow it down, I would say community and dreams.
+                        QuestBridge is where you meet others who will stick with
+                        you through thick and thin and root for you until the
+                        very end.
                       </p>
                       <p className="text-base text-left mt-4 font-bold">
                         Why are you excited about this role?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        I am extremely excited to work with the amazing
-                        Questbridge E-Board this year and connect with more
-                        wonderful Questbridge Scholars at Wesleyan.
+                        I’m excited to work with other executive board members
+                        and students to create and develop events that foster
+                        community building among all members.
                       </p>
                       <p className="text-base text-left mt-4 font-bold">
                         Word of Advice?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        When I first came to Wesleyan, I felt extremely lost and
-                        was afraid to ask questions/utilize resources. However,
-                        throughout my time at Wesleyan, I realized that the
-                        resources at Wes are always there to support students
-                        and are extremely helpful for any projects. So don’t be
-                        afraid to ask for help!
+                        You belong here and all of us FGLI students believe in
+                        you too! Don’t be afraid to try new things and find
+                        friends who really support you.
                       </p>
                     </div>
                     <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">

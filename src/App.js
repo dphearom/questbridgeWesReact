@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/blog/post1" element={<Post1/>}></Route>
         <Route exact path="/blog/post2" element={<Post2/>}></Route>
         <Route exact path="/events" element={<Events/>}></Route>
-        <Route exact path="/alumni'sinsights" element={<AlumnInsights/>}></Route>
+        <Route exact path="/alumniinsights" element={<AlumnInsights/>}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -11,20 +11,20 @@ export default function AlumnInsights() {
         <div className="flex flex-col flex-auto">
           <div className="flex w-full">
             <h1 className="text-4xl border-b-black border-b-2 w-full pb-4 pt-10 font-bold font-sans mb-5">
-              Alumni's Insights
+              Alumni Insights
             </h1>
           </div>
           <div className="flex md:flex-row w-full sm:flex-col pt-5 pl-3 pb-5 bg-white rounded-xl border shadow-md">
             <div className="md:w-1/3 sm:w-full">
-              <h1 className="font-bold text-xl">Sam Morreale</h1>
+              <h1 className="font-bold text-2xl text-wescolor">Sam Morreale</h1>
               <span className="italic">Pronouns: They/Them</span>
             </div>
             <div className="w-2/3">
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">Fun Fact</summary>
                 Sam began their undergrad career as a pre-med student.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">Biography</summary>
                 Sam Morreale (they/them) is currently the Associate Producer at
                 Soho Rep in NYC. An Artistic Producer, Director, and
@@ -45,7 +45,7 @@ export default function AlumnInsights() {
                 align with social justice and the movement for progressive
                 change.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   What are you doing after Wesleyan?
                 </summary>
@@ -64,7 +64,7 @@ export default function AlumnInsights() {
                 is, and discovering more about how they want to show up in this
                 fraught world.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   How did Questbridge help you while you were at Wesleyan?
                 </summary>
@@ -85,11 +85,11 @@ export default function AlumnInsights() {
 
           <div className="flex md:flex-row w-full sm:flex-col pt-5 pl-3 pb-5 mt-5 bg-white rounded-xl border shadow-md">
             <div className="md:w-1/3 sm:w-full">
-              <h1 className="font-bold text-xl">Alberto Encinas</h1>
+              <h1 className="font-bold text-2xl text-wescolor">Alberto Encinas</h1>
               <span className="italic">Pronouns: He/Him</span>
             </div>
             <div className="w-2/3">
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   What are you doing after Wesleyan?
                 </summary>
@@ -102,7 +102,7 @@ export default function AlumnInsights() {
                 Interviewer during my senior year. I currently work as an
                 Enterprise Account Manager at Bloomberg in NYC.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   How did Questbridge help you while you were at Wesleyan?
                 </summary>
@@ -120,11 +120,11 @@ export default function AlumnInsights() {
 
           <div className="flex md:flex-row w-full sm:flex-col pt-5 pl-3 pb-5 mt-5 bg-white rounded-xl border shadow-md">
             <div className="md:w-1/3 sm:w-full">
-              <h1 className="font-bold text-xl">Dakota Juhyn An</h1>
+              <h1 className="font-bold text-2xl text-wescolor">Dakota Juhyn An</h1>
               <span className="italic">Pronouns: He/Him</span>
             </div>
             <div className="w-2/3">
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   What are you doing after Wesleyan?
                 </summary>
@@ -140,7 +140,7 @@ export default function AlumnInsights() {
                 knowing that my younger-self would be amazed to see where I am
                 now.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   How did Questbridge help you while you were at Wesleyan?
                 </summary>
@@ -162,11 +162,11 @@ export default function AlumnInsights() {
           </div>
           <div className="flex md:flex-row w-full sm:flex-col pt-5 pl-3 pb-5 mt-5 bg-white rounded-xl border shadow-md">
             <div className="md:w-1/3 sm:w-full">
-              <h1 className="font-bold text-xl">Chris Jackson</h1>
+              <h1 className="font-bold text-2xl text-wescolor">Chris Jackson</h1>
               <span className="italic">Pronouns: He/Him</span>
             </div>
             <div className="w-2/3">
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">Fun Facts</summary>
                 <p>
                   A girl in my hall in Butts C freshman year went to school with
@@ -188,7 +188,7 @@ export default function AlumnInsights() {
                   housemates.
                 </p>
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">Biography</summary>
                 Hi! My name is Chris Jackson, I graduated from Wesleyan in 2020
                 with a degree in Film Studies and English. I’m originally from
@@ -201,7 +201,7 @@ export default function AlumnInsights() {
                 schools based on that. I think Wesleyan was my third choice,
                 behind USC and Rice.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   What are you doing after Wesleyan?
                 </summary>
@@ -215,7 +215,7 @@ export default function AlumnInsights() {
                 goal is to become a Producer/Writer for films and TV and
                 eventually own my own movie theater.
               </details>
-              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0">
+              <details className="sm:w-[347px] md:w-full sm:pt-4 md:pt-0 pb-2">
                 <summary className="font-semibold text-lg">
                   How did Questbridge help you while you were at Wesleyan?
                 </summary>

@@ -10,6 +10,7 @@ import Ahmed from "./ahmed";
 import Darling from "./darling";
 import Kelleigh from "./kelleigh";
 import Rome from "./rome";
+import Elizabeth from "./elizabeth";
 
 export default function About() {
   return (
@@ -44,10 +45,11 @@ export default function About() {
         {/* About page cards for all members, indentations to represent the row separation*/}
 
         <div className="mt-10 w-full pb-12">
-          <h1 className="pb-5 font-bold">Our Members</h1>
+          <h1 className="pb-5 font-bold">Our Boards</h1>
           <div className=" container flex flex-wrap md:flex-row sm:flex-col justify-between max-w-full">
             <Bella />
             <Pin />
+            <Elizabeth />
             <Pelumi />
             <Melanie />
             <Kelleigh />

@@ -15,11 +15,11 @@ export default function Navbar({ fixed }) {
               <div>
                 <Link to="/">
                   <img
-                  src={logo}
-                  width="70"
-                  height="70"
-                  className="d-inline-block h1"
-                  alt="Wesleyan Questbridge Logo"
+                    src={logo}
+                    width="70"
+                    height="70"
+                    className="d-inline-block h1"
+                    alt="Wesleyan Questbridge Logo"
                   />
                 </Link>
               </div>
@@ -46,6 +46,15 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  to="/"
+                >
+                  <i className="text-lg leading-lg text-black opacity-75"></i>
+                  <span className="ml-2">Home</span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                   to="/about"
                 >
                   <i className="text-lg leading-lg text-black opacity-75"></i>
@@ -64,10 +73,10 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="/alumni'sinsights"
+                  href="/alumniinsights"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Alumni's Insights</span>
+                  <span className="ml-2">Alumni Insights</span>
                 </a>
               </li>
               <li className="nav-item">
