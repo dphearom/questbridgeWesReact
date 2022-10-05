@@ -2,5 +2,8 @@
     "editor.guides.bracketPairs": "active",
     "cSpell.words": [
         "Questies"
-    ]
+    ],
+    "ocaml.sandbox": {
+        "kind": "global"
+    }
 }
