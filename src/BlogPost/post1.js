@@ -16,7 +16,7 @@ export default function post1() {
             className="h-48 w-full object-cover"
           />
         </div>
-        <div>
+        <div className="md:ml-6 md:mr-6 sm:ml-2 sm:mr-2" >
           <h1 className="block mt-4 text-4xl leading-tight text-black font-extrabold">
             3 Things You Need to Do Before Starting a Work-Study Job
           </h1>

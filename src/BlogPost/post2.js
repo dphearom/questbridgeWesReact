@@ -16,7 +16,7 @@ export default function post2() {
             className="sm:h-48 md:h-96 w-full object-cover"
           />
         </div>
-        <div>
+        <div className="md:ml-6 md:mr-6 sm:ml-2 sm:mr-2" >
           <h1 className="block mt-4 text-4xl leading-tight text-black font-extrabold">
             Looking Ahead: 3 FGLI Resources That Are Worth Your Time
           </h1>

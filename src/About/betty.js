@@ -15,7 +15,11 @@ export default function Betty() {
           <h1 class="text-lg text-gray-700"> Betty Gobeze </h1>
           <h3 class="text-sm text-gray-400 "> Financial Advisor </h3>
           <p class="text-xs text-left text-gray-400 mt-4">
-            <span className="font-bold">Fun Fact:</span> I was on a TV commercial when I was younger.
+            <span className="font-bold">Fun Fact:</span> I was on a TV
+            commercial when I was younger.
+            <span className="text-transparent">
+              This text is to fill the extra width of the flex container.
+            </span>
           </p>
         </div>
         <div>
@@ -32,7 +36,7 @@ export default function Betty() {
                 <div className="relative w-auto my-6 mx-auto max-w-3xl">
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                     <div className="flex items-start justify-between p-4 border-b border-solid border-slate-200 rounded-t">
-                      <h3 className="text-3xl font-semibold">Bella Nunn</h3>
+                      <h3 className="text-3xl font-semibold">Betty Gomez</h3>
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}
@@ -46,26 +50,26 @@ export default function Betty() {
                           <span className="font-bold">Hometown:</span>{" "}
                           <span className="text-slate-500">
                             {" "}
-                            Austin, Texas{" "}
+                            Vancouver, Washington{" "}
                           </span>
                         </div>
                         <div className="md:w-1/2 text-base">
                           <span className="font-bold ">Email:</span>{" "}
                           <span className="text-blue-500 underline">
-                            bunn@wesleyan.edu
+                            bgobez@wesleyan.edu
                           </span>
                         </div>
                       </div>
                       <div className="flex md:flex-row sm:flex-col text-sm justify-start text-left">
                         <div className="md:w-1/3 text-base">
                           <span className="font-bold ">Class Year:</span>
-                          <span className="text-slate-500"> 2024</span>
+                          <span className="text-slate-500"> 2023</span>
                         </div>
                         <div className="md:w-1/2 text-base">
                           <span className="font-bold ">Major\Minor:</span>
                           <span className="text-slate-500">
                             {" "}
-                            Earth & Environmental Science\Data Analysis Minor
+                            Neuroscience and Behavior\Chemistry
                           </span>
                         </div>
                       </div>
@@ -73,25 +77,22 @@ export default function Betty() {
                         What does QuestBridge mean to you?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        For me, QuestBridge is a really great community of FGLI
-                        students that come from similar backgrounds that work
-                        together to navigate everything college and career
-                        related. We're really just a giant group of friends that
-                        all look out for each other!
+                        Questbridge gave me the opportunity to go to Wesleyan
+                        without having to worry about the cost.
                       </p>
                       <p className="text-base text-left mt-4 font-bold">
                         Why are you excited about this role?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        I am really excited to continue building our chapter and
-                        stay involved with the QB and Wesleyan communities!
+                        I'm excited for this role because I can help secure
+                        funds to make events with the community more engaging.
                       </p>
                       <p className="text-base text-left mt-4 font-bold">
                         Word of Advice?
                       </p>
                       <p className="text-slate-500 text-base text-left">
-                        Take advantage of all the resources available and don't
-                        be afraid to ask questions!
+                        Take advantage of all the resources here at Wes, they
+                        were made for you!
                       </p>
                     </div>
                     <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
